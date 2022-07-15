@@ -1,0 +1,41 @@
+#quote{
+    width: 100%;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote-inner{
+    width: 100%;
+    color: var(--quote-bg);
+    padding: 1rem 0;
+}
+
+#quote-inner blockquote{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+
+#quote-inner blockquote p{
+    text-align: justify;
+    font-size: var(--ft-quote-sm);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#quote-inner blockquote span{
+    text-align: right;
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #quote-inner{
+        width: 70%; 
+        max-width: 800px;
+    } 
+
+}

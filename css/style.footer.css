@@ -1,0 +1,12 @@
+footer{
+    width: 100%;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+#footer-inner{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

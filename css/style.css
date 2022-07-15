@@ -1,0 +1,66 @@
+@import url("./style.reset.css");
+@import url("./style.page-header.css");
+@import url("./styles.gallery.css");
+@import url("./style.quote.css");
+@import url("./style.callAction.css");
+@import url("./style.footer.css");
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto/Roboto-Italic.ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto/Roboto-LightItalic.ttf');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+:root{
+    /* Colors */
+    --dark-blue: #1F2937; 
+    --white: #F9FAF8;
+    --primary: #3882F6;
+    --primary-8: #246EE2;
+    --secondary: #E5E7EB;
+    --quote-bg: #1F2937;
+
+    /* Font Sizes */
+    --ft-logo-sm: 20px;
+    --ft-logo: 28px;
+    --ft-sm: 18px;
+    --ft-md: 24px;
+    --ft-lg: 48px;
+    --ft-quote-sm: 26px;
+    --ft-quote-md: 36px;
+
+    /* Paddings */
+    --nav-pad: 0 1rem;
+    --bt-pd-sm: 0.2rem 1rem;
+    --bt-pd-md: 0.4rem 1rem;
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
